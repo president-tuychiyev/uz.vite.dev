@@ -1,8 +1,7 @@
-<!-- Agar xohlasangiz, quyidagi eslatmani olib tashlashingiz mumkin -->
-## Ushbu repo [Vite.js hujjatlarini tarjima qilish reposlari](https://github.com/vitejs?q=docs) uchun shablon hisoblanadi. Batafsil qo‘llanma uchun [guide](/.github/CONTRIBUTING.md) ga qarang.
+<!-- You can remove the following notice from your fork -->
+## This repo is a template for [Vite.js docs translation repositories](https://github.com/vitejs?q=docs). See [guide](/.github/CONTRIBUTING.md).
 
 ---
-
 <p align="center">
   <br>
   <br>
@@ -28,42 +27,42 @@
 
 # Vite ⚡
 
-> Keyingi avlod frontend vositalari
+> Next Generation Frontend Tooling
 
-- 💡 Serverni bir zumda ishga tushirish
-- ⚡️ Juda tez HMR (Hot Module Replacement)
-- 🛠️ Boy funksiyalar to‘plami
-- 📦 Optimallashtirilgan build
-- 🔩 Universal plugin interfeysi
-- 🔑 To‘liq tiplangan APIlar
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
-Vite (fransuzcha "tez" degan ma’noni anglatadi, talaffuzi [`/viːt/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), ya’ni "vit") — zamonaviy web loyihalar uchun tez va yengil development tajribasini taqdim etishga qaratilgan build vositasi. U ikki asosiy qismdan iborat:
+Vite (French word for "quick", pronounced [`/viːt/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:
 
-- Dev server — [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ustiga qo‘shimcha imkoniyatlar beradi, masalan juda tez [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement).
+- A dev server that provides [rich feature enhancements](https://vite.dev/guide/features) over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), for example extremely fast [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement).
 
-- Build komandasi — kodingizni [Rolldown](https://rolldown.rs) yordamida yig‘adi va production uchun maksimal optimallashtirilgan statik fayllar hosil qiladi.
+- A build command that bundles your code with [Rolldown](https://rolldown.rs), pre-configured to output highly optimized static assets for production.
 
-Bundan tashqari, Vite o‘zining [Plugin API](https://vite.dev/guide/api-plugin.html) va [JavaScript API](https://vite.dev/guide/api-javascript.html) orqali kengaytirilishi mumkin va to‘liq typing qo‘llab-quvvatlanadi.
+In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.
 
-👉 Batafsil ma’lumot uchun hujjatlarni o‘qing: https://vite.dev
+[Read the Docs to Learn More](https://vite.dev).
 
-## Paketlar
+## Packages
 
-| Paket                                           | Versiya (o‘zgarishlar tarixini ko‘rish uchun bosing)                                                                               |
-| ----------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| Package                                         | Version (click for changelogs)                                                                                                    |
+| ----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
 | [vite](packages/vite)                           | [![vite version](https://img.shields.io/npm/v/vite.svg?label=%20)](packages/vite/CHANGELOG.md)                                    |
 | [@vitejs/plugin-legacy](packages/plugin-legacy) | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md) |
 | [create-vite](packages/create-vite)             | [![create-vite version](https://img.shields.io/npm/v/create-vite.svg?label=%20)](packages/create-vite/CHANGELOG.md)               |
 
-## Hissa qo‘shish
+## Contribution
 
-Batafsil: [Contributing Guide](CONTRIBUTING.md)
+See [Contributing Guide](CONTRIBUTING.md).
 
-## Litsenziya
+## License
 
-[MIT](LICENSE)
+[MIT](LICENSE).
 
-## Homiylar
+## Sponsors
 
 <p align="center">
   <a target="_blank" href="https://github.com/sponsors/vite">
